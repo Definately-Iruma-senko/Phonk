@@ -1,0 +1,69 @@
+h1 {
+    font-family: Sacramento;
+    font-size: 50px;
+    color: white;
+}
+
+body {
+    background: url("https://4kwallpapers.com/images/walls/thumbs_2t/15227.png") no-repeat fixed center; 
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.song-name {
+    font-family: Sacramento;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+}
+.song-name1 {
+    font-family: Sacramento;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 10px;
+}
+.audio-player {
+    display: block;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .audio-player::-webkit-media-controls-enclosure {
+    background-color: rgba(244, 243, 243, 0.496);
+    border-radius: 10px;
+  }
+  
+  .audio-player::-webkit-media-controls-panel {
+    background-color: transparent;
+    border: none;
+  }
+  
+  .audio-player::-webkit-media-controls-timeline {
+    background-color: transparent;
+    border-radius: 5
+  }
+  .fa-spotify {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  .fnt {
+    font-size: 1rem;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  .fa-youtube {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  .fa-discord {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-decoration: none;
+  }
+  footer { position: fixed; bottom: 0; width: 100%; height: 50px; background-color: rgba(0, 0, 0, 0.5); display: flex; justify-content: center; align-items: center; }
+
+  footer a { font-size: 2rem; color: white; text-decoration: none; margin: 0 10px; }
+  
